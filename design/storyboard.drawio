@@ -22,6 +22,12 @@
                 <mxCell id="7" value="Calculate Volume" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=10;fillColor=#E6E6E6;strokeColor=none;labelBackgroundColor=none;fontFamily=Georgia;fontSize=15;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="60" y="230" width="150" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="8" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontFamily=Georgia;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="180" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="The volume of the sphere is 523.59 cm&lt;sup style=&quot;font-size: 15px;&quot;&gt;2&lt;/sup&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Georgia;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="320" width="280" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>

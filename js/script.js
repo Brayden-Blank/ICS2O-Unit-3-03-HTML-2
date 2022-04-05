@@ -9,13 +9,11 @@
  */
 function calculateClicked() {
   //input
-  const length = parseInt(document.getElementById("length").value)
-  const width = parseInt(document.getElementById("width").value)
-  const height = parseInt(document.getElementById("height").value)
+  const radius = parseInt(document.getElementById("radius").value)
 
   //process
-  const volume = (length * width * height) / 3
+  const volume = (4 / 3) * Math.PI * (radius**3)
   
   //output
-  document.getElementById("volume-of-pyramid").innerHTML = "The volume of the pyramid is: " +  volume.toFixed(2) + " cm³!"
+  document.getElementById("volume-of-sphere").innerHTML = "The volume of the sphere is: " +  volume.toFixed(2) + " cm³!"
 }

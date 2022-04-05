@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Area of a Trapezoid, with JS!" />
+    <meta name="description" content="Volume of a Sphere, with JS!" />
     <meta name="keywords" content="mths, ics2o" />
     <meta name="author" content="Brayden-Blank" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,9 +13,9 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.lime-red.min.css" /> 
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-green.min.css" /> 
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Volume of a Pyramid, with JS!</title>
+    <title>Voume of a Sphere, with JS!</title>
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -23,45 +23,27 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Volume of a Pyramid, with JS!</span>
+          <span class="mdl-layout-title">Volume of a Sphere, with JS!</span>
         </div>
       </header>
       <main class="mdl-layout__content">
         <table>
           <tr>
             <th>
-              <img src="./images/volume-of-pyramid.png" alt="pyramid" width="90%" height="auto" />
+              <img src="./images/volume-of-sphere.png" alt="sphere" width="90%" height="auto" />
             </th>
             <th>
               <h2> Formulas</h2>
-              <h3> Volume = (Length x Width x Height) ÷ 3</h3>
+              <img src="./images/sphere-formula.png" alt="formula" width="80%" height="auto" />
             </th>
           </tr>
         </table>
-        <p> Length: </p>
+        <p> Radius of Circle: </p>
         <!-- Numeric Textfield with Floating Label -->
       <form action="#">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="length">
-          <label class="mdl-textfield__label" for="length">Input value...</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-      </form>
-        <p> Width: </p>
-        <!-- Numeric Textfield with Floating Label -->
-      <form action="#">
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-          <input class="mdl-textfield__input" id="width">
-          <label class="mdl-textfield__label" for="width">Input value...</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-      </form>
-        <p> Height: </p>
-        <!-- Numeric Textfield with Floating Label -->
-      <form action="#">
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height">
-          <label class="mdl-textfield__label" for="height">Input value...</label>
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="radius">
+          <label class="mdl-textfield__label" for="radius">Input value...</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
       </form>
@@ -76,7 +58,7 @@
         <br>
         <br>
         <div id="user-info">
-          <div id="volume-of-pyramid"></div>
+          <div id="volume-of-sphere"></div>
         </div>
       </main>
     </div>
